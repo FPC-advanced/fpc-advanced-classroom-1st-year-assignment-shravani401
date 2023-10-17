@@ -1,7 +1,0 @@
-c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem05.c: In function 'main':
-c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem05.c:28:15: warning: implicit declaration of function 'findLargest' [-Wimplicit-function-declaration]
-     largest = findLargest(num1,num2,num3);
-               ^~~~~~~~~~~
-C:\Users\SHRAVA~1\AppData\Local\Temp\ccKxiizr.o: In function `main':
-c:/Users/Shravani Shinde/Desktop/fpc-advanced-classroom-1st-year-assignment-shravani401/set01/problem05.c:28: undefined reference to `findLargest'
-collect2.exe: error: ld returned 1 exit status

@@ -6,13 +6,13 @@ int input() {
     scanf("%d",&num);
     return num;
 }
-int compare(int num1, int num2, int num3) {
-    int largest = num1;
-    if (num2 > largest) {
-        largest = num2;
+int compare(int a, int b, int c) {
+    int largest = a;
+    if (b > largest) {
+        largest =b;
     }
-    if (num3 > largest) {
-        largest = num3;
+    if (c > largest) {
+        largest = c;
     }
     return largest;
 }
@@ -21,11 +21,11 @@ void displayResult(int largest) {
     printf("The largest number is:%d\n",largest);
 }
 int main() {
-    int num1, num2, num3, largest;
-    num1 = input();
-    num2 = input();
-    num3 = input();
-    largest = findLargest(num1,num2,num3);
+    int a, b,c, largest;
+    a = input();
+    b = input();
+    c = input();
+    largest = compare(a,b,c);
     displayResult(largest);
  return 0;
 }
