@@ -5,7 +5,7 @@ int inputNumbers(int *a, int *b, int *c) {
     scanf("%d %d %d",a,b,c);
 }
 
-void findLargest(int *a, int *b, int *c) {
+void compare(int *a, int *b, int *c) {
     if (*b > *a && *b > *c) {
         *a = *b;
     } else if (*c > *a && *c > *b) {
@@ -20,7 +20,7 @@ void displayResult(int largest) {
 int main() {
     int a,b,c;
     inputNumbers(&a,&b,&c);
-    findLargest(&a,&b,&c);
+    compare(&a,&b,&c);
     displayResult(a);
 
     return 0;
