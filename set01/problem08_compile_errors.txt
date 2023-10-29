@@ -1,0 +1,27 @@
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c: In function 'main':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:12:1: warning: implicit declaration of function 'result' [-Wimplicit-function-declaration]
+ result(n,a,sum);
+ ^~~~~~
+C:\Users\SHRAVA~1\AppData\Local\Temp\ccrjbVld.o: In function `main':
+c:/Users/Shravani Shinde/Desktop/fpc-advanced-classroom-1st-year-assignment-shravani401/set01/problem08.c:12: undefined reference to `result'
+collect2.exe: error: ld returned 1 exit status
+Compilation started at 10/30/2023, 3:55:34 AM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c: In function 'main':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:12:1: warning: implicit declaration of function 'result' [-Wimplicit-function-declaration]
+ result(n,a,sum);
+ ^~~~~~
+C:\Users\SHRAVA~1\AppData\Local\Temp\ccUUDPHX.o: In function `main':
+c:/Users/Shravani Shinde/Desktop/fpc-advanced-classroom-1st-year-assignment-shravani401/set01/problem08.c:12: undefined reference to `result'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/30/2023, 3:55:37 AM
+Compilation started at 10/30/2023, 3:59:37 AM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c: In function 'main':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:12:1: warning: implicit declaration of function 'result' [-Wimplicit-function-declaration]
+ result(n,a,sum);
+ ^~~~~~
+C:\Users\SHRAVA~1\AppData\Local\Temp\cc5FuHzY.o: In function `main':
+c:/Users/Shravani Shinde/Desktop/fpc-advanced-classroom-1st-year-assignment-shravani401/set01/problem08.c:12: undefined reference to `result'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/30/2023, 3:59:39 AM
+Compilation started at 10/30/2023, 4:24:30 AM
+Compilation finished at 10/30/2023, 4:24:31 AM
