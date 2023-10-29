@@ -89,3 +89,33 @@ c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shra
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 10/30/2023, 4:50:50 AM
+Compilation started at 10/30/2023, 4:52:54 AM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c: In function 'main':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:3:9: warning: implicit declaration of function 'input_array_size' [-Wimplicit-function-declaration]
+ int n = input_array_size();
+         ^~~~~~~~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:5:1: warning: implicit declaration of function 'input_array' [-Wimplicit-function-declaration]
+ input_array(n,a);
+ ^~~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:6:11: warning: implicit declaration of function 'sum_n_array' [-Wimplicit-function-declaration]
+ int sum = sum_n_array(n,a);
+           ^~~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:7:1: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+ output(sum);
+ ^~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c: At top level:
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:17:6: warning: conflicting types for 'input_array'
+ void input_array(int n,int a[n]){
+      ^~~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:5:1: note: previous implicit declaration of 'input_array' was here
+ input_array(n,a);
+ ^~~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:32:6: warning: conflicting types for 'output'
+ void output(int sum) {
+      ^~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.c:7:1: note: previous implicit declaration of 'output' was here
+ output(sum);
+ ^~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set01\problem08.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 10/30/2023, 4:52:55 AM
