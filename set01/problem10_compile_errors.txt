@@ -8,3 +8,5 @@ collect2.exe: error: ld returned 1 exit status
 Compilation finished at 10/31/2023, 11:13:12 AM
 Compilation started at 11/2/2023, 4:06:19 PM
 Compilation finished at 11/2/2023, 4:06:20 PM
+Compilation started at 11/7/2023, 11:27:07 AM
+Compilation finished at 11/7/2023, 11:27:08 AM
