@@ -10,3 +10,11 @@ c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shra
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 11/15/2023, 11:06:53 PM
+Compilation started at 11/15/2023, 11:11:56 PM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem02.c: In function 'main':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem02.c:18:13: warning: implicit declaration of function 'input_side' [-Wimplicit-function-declaration]
+     side1 = input_side();
+             ^~~~~~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/15/2023, 11:11:57 PM
