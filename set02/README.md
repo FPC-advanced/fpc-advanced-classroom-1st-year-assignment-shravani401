@@ -112,6 +112,7 @@ void output(int a, int b, int gcd);
 4
 ```
 
+
 ---
 
 06. Write a program to reverse a string.
