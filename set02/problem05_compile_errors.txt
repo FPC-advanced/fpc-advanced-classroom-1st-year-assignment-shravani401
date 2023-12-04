@@ -1,0 +1,19 @@
+Compilation started at 12/4/2023, 11:46:38 PM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem05.c: In function 'main':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem05.c:6:12: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     num1 = input();
+            ^~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem05.c:9:11: warning: implicit declaration of function 'find_gcd' [-Wimplicit-function-declaration]
+     gcd = find_gcd(num1, num2);
+           ^~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem05.c:11:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+     output(num1, num2, gcd);
+     ^~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem05.c: At top level:
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem05.c:37:6: warning: conflicting types for 'output'
+ void output(int a, int b, int gcd) {
+      ^~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem05.c:11:5: note: previous implicit declaration of 'output' was here
+     output(num1, num2, gcd);
+     ^~~~~~
+Compilation finished at 12/4/2023, 11:46:39 PM
