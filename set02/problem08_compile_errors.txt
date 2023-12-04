@@ -7,3 +7,12 @@ C:\Users\SHRAVA~1\AppData\Local\Temp\ccn5dxgl.o: In function `main':
 c:/Users/Shravani Shinde/Desktop/fpc-advanced-classroom-1st-year-assignment-shravani401/set02/problem08.c:55: undefined reference to `input_n'
 collect2.exe: error: ld returned 1 exit status
 Compilation finished at 12/4/2023, 11:59:28 PM
+Compilation started at 12/4/2023, 11:59:55 PM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem08.c: In function 'main':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set02\problem08.c:55:9: warning: implicit declaration of function 'input_n' [-Wimplicit-function-declaration]
+     n = input_n();
+         ^~~~~~~
+C:\Users\SHRAVA~1\AppData\Local\Temp\ccQkghjC.o: In function `main':
+c:/Users/Shravani Shinde/Desktop/fpc-advanced-classroom-1st-year-assignment-shravani401/set02/problem08.c:55: undefined reference to `input_n'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 12/4/2023, 11:59:55 PM
