@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function to take input for a number
 int input_number() {
     int num;
     printf("Enter a number: ");
@@ -8,7 +7,6 @@ int input_number() {
     return num;
 }
 
-// Function to check if a number is prime
 int is_prime(int n) {
     if (n <= 1) {
         return 0; // Not a prime number
@@ -23,7 +21,6 @@ int is_prime(int n) {
     return 1; // Prime number
 }
 
-// Function to display output
 void output(int n, int result) {
     if (result) {
         printf("%d is a prime number\n", n);

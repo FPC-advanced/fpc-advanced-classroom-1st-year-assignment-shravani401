@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function to take input for n
 int input() {
     int n;
     printf("Enter the value of n: ");
@@ -8,7 +7,6 @@ int input() {
     return n;
 }
 
-// Function to find the nth Fibonacci number
 int find_fibo(int n) {
     if (n <= 1) {
         return n;
@@ -23,7 +21,6 @@ int find_fibo(int n) {
     }
 }
 
-// Function to display output
 void output(int n, int fibo) {
     printf("fibo(%d) = %d\n", n, fibo);
 }

@@ -199,7 +199,7 @@ Enter the coordinates of point 2 (x,y):
 Enter the coordinates of point 3 (x,y):
 1 1
 Enter the coordinates of point 4 (x,y):
-0 1
+
 ```
 
 ***Output***

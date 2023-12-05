@@ -4,7 +4,6 @@ typedef struct _triangle {
     float base, altitude, area;
 } Triangle;
 
-// Function to take input for a single triangle
 Triangle input_triangle() {
     Triangle t;
     printf("Enter the base of the triangle: ");
@@ -14,7 +13,6 @@ Triangle input_triangle() {
     return t;
 }
 
-// Function to take input for n triangles
 void input_n_triangles(int n, Triangle t[n]) {
     for (int i = 0; i < n; i++) {
         printf("Enter details for triangle %d:\n", i + 1);
@@ -22,19 +20,16 @@ void input_n_triangles(int n, Triangle t[n]) {
     }
 }
 
-// Function to calculate the area of a triangle
 void find_area(Triangle *t) {
     t->area = 0.5 * (t->base) * (t->altitude);
 }
 
-// Function to calculate areas of n triangles
 void find_n_areas(int n, Triangle t[n]) {
     for (int i = 0; i < n; i++) {
         find_area(&t[i]);
     }
 }
 
-// Function to find the triangle with the smallest area
 Triangle find_smallest_triangle(int n, Triangle t[n]) {
     Triangle smallest = t[0];
     for (int i = 1; i < n; i++) {
@@ -45,7 +40,6 @@ Triangle find_smallest_triangle(int n, Triangle t[n]) {
     return smallest;
 }
 
-// Function to display output
 void output(int n, Triangle t[n], Triangle smallest) {
     printf("The smallest triangle out of triangles with base and height is the triangle having base %.2f, height %.2f, and area %.2f\n", smallest.base, smallest.altitude, smallest.area);
 }

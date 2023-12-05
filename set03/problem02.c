@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function to take input for three points
 void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float *y3) {
     printf("Enter coordinates for the first point (x1 y1): ");
     scanf("%f %f", x1, y1);
@@ -10,7 +9,6 @@ void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float
     scanf("%f %f", x3, y3);
 }
 
-// Function to check if the given points form a triangle
 int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3) {
     // Check if the three points are not collinear
     if ((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) != 0) {
@@ -20,7 +18,6 @@ int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3) {
     }
 }
 
-// Function to display output
 void output(float x1, float y1, float x2, float y2, float x3, float y3, int result) {
     if (result) {
         printf("The points (%.1f, %.1f), (%.1f, %.1f), and (%.1f, %.1f) form a triangle\n", x1, y1, x2, y2, x3, y3);

@@ -11,7 +11,6 @@ typedef struct polygon {
     float perimeter;
 } Polygon;
 
-// Function to input the number of sides
 int input_n() {
     int n;
     printf("Enter the number of sides of the polygon: ");
@@ -19,7 +18,6 @@ int input_n() {
     return n;
 }
 
-// Function to input coordinates for a point
 Point input_point(char *prompt_msg) {
     Point p;
     printf("%s", prompt_msg);
@@ -27,7 +25,6 @@ Point input_point(char *prompt_msg) {
     return p;
 }
 
-// Function to input coordinates for a polygon
 int input_polygon(Polygon *poly) {
     poly->sides = input_n();
     for (int i = 0; i < poly->sides; i++) {
@@ -38,12 +35,10 @@ int input_polygon(Polygon *poly) {
     return poly->sides;
 }
 
-// Function to calculate the distance between two points
 float find_distance(Point a, Point b) {
     return sqrt(pow(b.x - a.x, 2) + pow(b.y - a.y, 2));
 }
 
-// Function to calculate the perimeter of a polygon
 void find_perimeter(Polygon *poly) {
     poly->perimeter = 0.0;
     for (int i = 0; i < poly->sides; i++) {
@@ -51,7 +46,6 @@ void find_perimeter(Polygon *poly) {
     }
 }
 
-// Function to display output
 void output(Polygon poly) {
     printf("The perimeter of the polygon is %.6f\n", poly.perimeter);
 }

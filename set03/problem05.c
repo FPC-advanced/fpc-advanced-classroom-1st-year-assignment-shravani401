@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-// Function to take input for n
 int input_array_size() {
     int n;
     printf("Enter the value of n: ");
@@ -9,14 +8,12 @@ int input_array_size() {
     return n;
 }
 
-// Function to initialize the array from 2 to n
 void init_array(int n, bool is_prime[]) {
     for (int i = 2; i <= n; i++) {
         is_prime[i] = true;
     }
 }
 
-// Function to apply the Sieve of Eratosthenes
 void eratosthenes_sieve(int n, bool is_prime[]) {
     for (int i = 2; i * i <= n; i++) {
         if (is_prime[i]) {
@@ -27,7 +24,6 @@ void eratosthenes_sieve(int n, bool is_prime[]) {
     }
 }
 
-// Function to display output
 void output(int n, bool is_prime[]) {
     printf("Prime numbers between 2 and %d are: ", n);
     for (int i = 2; i <= n; i++) {

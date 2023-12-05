@@ -4,28 +4,24 @@ typedef struct _triangle {
     float base, altitude, area;
 } Triangle;
 
-// Function to take input for a triangle
 Triangle input_triangle() {
-    Triangle t;
+    Triangle p;
     printf("Enter the base of the triangle: ");
-    scanf("%f", &t.base);
+    scanf("%f", &p.base);
     printf("Enter the altitude of the triangle: ");
-    scanf("%f", &t.altitude);
-    return t;
+    scanf("%f", &p.altitude);
+    return p;
 }
 
-// Function to calculate the area of a triangle
-void find_area(Triangle *t) {
-    t->area = 0.5 * (t->base) * (t->altitude);
+void find_area(Triangle *p) {
+    p->area = 0.5 * (p->base) * (p->altitude);
 }
 
-// Function to display output
-void output(Triangle t) {
-    printf("The area of the triangle with base = %.6f and altitude = %.6f is %.6f\n", t.base, t.altitude, t.area);
+void output(Triangle p) {
+    printf("The area of the triangle with base = %.6f and altitude = %.6f is %.6f\n", p.base, p.altitude, p.area);
 }
 
 int main() {
-    // Input triangle
     Triangle myTriangle = input_triangle();
 
     // Calculate area
