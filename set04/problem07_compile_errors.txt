@@ -1,0 +1,16 @@
+Compilation started at 12/5/2023, 11:57:40 AM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set04\problem07.c: In function 'main':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set04\problem07.c:25:5: error: too few arguments to function 'output'
+     output(fraction1, fraction2, sum);
+     ^~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set04\problem07.c:10:6: note: declared here
+ void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum);
+      ^~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set04\problem07.c: At top level:
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set04\problem07.c:58:6: error: conflicting types for 'output'
+ void output(Fraction f1, Fraction f2, Fraction sum) {
+      ^~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\set04\problem07.c:10:6: note: previous declaration of 'output' was here
+ void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum);
+      ^~~~~~
+Compilation finished at 12/5/2023, 11:57:40 AM
