@@ -1,12 +1,13 @@
 #include <stdio.h>
-int input_number() {
+int input_number(); {
   printf("Enter a number:");
-  scanf("%d",num);
+  scanf("%d" ,num);
   return n;
 }
-int is_factorial (int n);
+int is _factorial (int n);
 int fact =1;
-int= i; {
+int = i;
+while (fact<num) {
   fact*=i;
   i++;
 
