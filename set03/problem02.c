@@ -10,11 +10,10 @@ void input_triangle(float *x1, float *y1, float *x2, float *y2, float *x3, float
 }
 
 int is_triangle(float x1, float y1, float x2, float y2, float x3, float y3) {
-    // Check if the three points are not collinear
     if ((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) != 0) {
-        return 1; // Form a triangle
+        return 1;
     } else {
-        return 0; // Do not form a triangle
+        return 0;
     }
 }
 
@@ -29,13 +28,8 @@ void output(float x1, float y1, float x2, float y2, float x3, float y3, int resu
 int main() {
     float x1, y1, x2, y2, x3, y3;
 
-    // Input coordinates for three points
     input_triangle(&x1, &y1, &x2, &y2, &x3, &y3);
-
-    // Check if the points form a triangle
     int result = is_triangle(x1, y1, x2, y2, x3, y3);
-
-    // Display output
     output(x1, y1, x2, y2, x3, y3, result);
 
     return 0;

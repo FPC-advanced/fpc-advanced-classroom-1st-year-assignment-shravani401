@@ -3,17 +3,13 @@
 int main() {
     int n = input_array_size();
     int a[n];
-    
     input_array(n, a);
-    
     int sum = sum_composite_numbers(n, a);
-    
     output(sum);
-
     return 0;
 }
 
-// Function to input the size of the array
+
 int input_array_size() {
     int n;
     printf("Enter the size of the array: ");

@@ -36,13 +36,8 @@ void output(Line l) {
 }
 
 int main() {
-    // Input coordinates for a line
     Line myLine = input_line();
-
-    // Calculate the length of the line
     find_length(&myLine);
-
-    // Display output
     output(myLine);
 
     return 0;

@@ -52,14 +52,8 @@ void output(Polygon poly) {
 
 int main() {
     Polygon myPolygon;
-
-    // Input coordinates for the polygon
     input_polygon(&myPolygon);
-
-    // Calculate the perimeter of the polygon
     find_perimeter(&myPolygon);
-
-    // Display output
     output(myPolygon);
 
     return 0;

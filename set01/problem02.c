@@ -1,4 +1,3 @@
-//2. Write a C program to add two numb
 #include<stdio.h>
 int main() {
 

@@ -47,7 +47,6 @@ Fraction add_fractions(Fraction f1, Fraction f2) {
     result.num = (f1.num * f2.den) + (f2.num * f1.den);
     result.den = f1.den * f2.den;
 
-    // Simplify the result by dividing numerator and denominator by their GCD
     int gcd = find_gcd(result.num, result.den);
     result.num /= gcd;
     result.den /= gcd;

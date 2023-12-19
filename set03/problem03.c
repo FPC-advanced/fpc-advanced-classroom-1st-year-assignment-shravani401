@@ -9,16 +9,16 @@ int input_number() {
 
 int is_prime(int n) {
     if (n <= 1) {
-        return 0; // Not a prime number
+        return 0;
     }
 
     for (int i = 2; i * i <= n; i++) {
         if (n % i == 0) {
-            return 0; // Not a prime number
+            return 0;
         }
     }
 
-    return 1; // Prime number
+    return 1;
 }
 
 void output(int n, int result) {
@@ -30,13 +30,8 @@ void output(int n, int result) {
 }
 
 int main() {
-    // Input number
     int num = input_number();
-
-    // Check if the number is prime
     int result = is_prime(num);
-
-    // Display output
     output(num, result);
 
     return 0;

@@ -1,20 +1,13 @@
 #include <stdio.h>
 
-// Function declarations
 int input_number();
 int is_composite(int n);
 void output(int n, int result);
 
 int main() {
     int number, result;
-
-    // Input function
     number = input_number();
-
-    // Check if the number is composite
     result = is_composite(number);
-
-    // Output function
     output(number, result);
 
     return 0;
@@ -34,7 +27,6 @@ int is_composite(int n) {
         }
     }
 
-    // A number is composite if it has more than 2 factors
     return (factors > 2);
 }
 
