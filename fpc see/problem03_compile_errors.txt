@@ -1,0 +1,55 @@
+Compilation started at 3/5/2024, 2:08:59 PM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c: In function 'main':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:49:9: warning: implicit declaration of function 'input_game' [-Wimplicit-function-declaration]
+     g = input_game();
+         ^~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:49:7: error: incompatible types when assigning to type 'game {aka struct Game}' from type 'int'
+     g = input_game();
+       ^
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:50:5: error: 't' undeclared (first use in this function)
+     t = input_team();
+     ^
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:50:5: note: each undeclared identifier is reported only once for each function it appears in
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:50:9: warning: implicit declaration of function 'input_team' [-Wimplicit-function-declaration]
+     t = input_team();
+         ^~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c: At top level:
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:55:6: error: conflicting types for 'input_game'
+ game input_game()
+      ^~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:49:9: note: previous implicit declaration of 'input_game' was here
+     g = input_game();
+         ^~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c: In function 'input_game':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:58:15: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     g.team[0] = input_team();
+               ^
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:59:15: error: incompatible types when assigning to type 'team {aka struct Team}' from type 'int'
+     g.team[1] = input_team();
+               ^
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c: At top level:
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:65:6: error: conflicting types for 'input_team'
+ team input_team()
+      ^~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:50:9: note: previous implicit declaration of 'input_team' was here
+     t = input_team();
+         ^~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c: In function 'input_team':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:68:5: warning: implicit declaration of function 'input_teamname' [-Wimplicit-function-declaration]
+     input_teamname(t.teamname);
+     ^~~~~~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:69:5: warning: implicit declaration of function 'input_players' [-Wimplicit-function-declaration]
+     input_players(t.numplayers,t.players);
+     ^~~~~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c: At top level:
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:75:6: warning: conflicting types for 'input_teamname'
+ void input_teamname(char teame_name[])
+      ^~~~~~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:68:5: note: previous implicit declaration of 'input_teamname' was here
+     input_teamname(t.teamname);
+     ^~~~~~~~~~~~~~
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c: In function 'input_teamname':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\problem03.c:77:16: error: 'team_name' undeclared (first use in this function)
+     scanf("%s",team_name);
+                ^~~~~~~~~
+Compilation finished at 3/5/2024, 2:08:59 PM
