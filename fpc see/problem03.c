@@ -72,15 +72,23 @@ team input_team()
     return t;
 }
 
-void input_teamname(char teame_name[])
-{
-    scanf("%s",team_name);
+void input_teamname(char team_name[])
+{    
+    printf("Enter the name of the team:");
+    scanf("%s",team_name);    
 }
 
 point input_point(){
-
+   point p; 
+   printf ("Enter the point scored by fritacole name:");
+   scanf("%s",&p.name);
+   return p;
 }
 
 foul input_foul(){
+     point f;
+     printf("Enter the point scored by fritacole name:");
+     scanf("%s",&f.name);
+     return f;
 
 }
