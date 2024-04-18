@@ -216,9 +216,7 @@ void run_game( game *g)
             printf("Invalid input. Please try again.\n");
         }
     }
-    void check_frit_team(game *g, int id) {
-
-    
+    void check_frit_team(int*g, int id) {
     int found = 0;
     for (int i = 0; i < 2; i++) {
         for (int i = 0; i < g->teams[i].numplayers; i++) {
