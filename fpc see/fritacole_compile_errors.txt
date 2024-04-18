@@ -1,2 +1,26 @@
 Compilation started at 4/4/2024, 11:38:32 AM
 Compilation finished at 4/4/2024, 11:38:33 AM
+Compilation started at 4/8/2024, 2:56:25 PM
+Compilation finished at 4/8/2024, 2:56:26 PM
+Compilation started at 4/8/2024, 2:56:58 PM
+Compilation finished at 4/8/2024, 2:56:58 PM
+Compilation started at 4/8/2024, 3:25:41 PM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\fritacole.c: In function 'print_team':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\fritacole.c:141:9: warning: implicit declaration of function 'print_fritacole' [-Wimplicit-function-declaration]
+         print_fritacole(t.players[i]);
+         ^~~~~~~~~~~~~~~
+C:\Users\SHRAVA~1\AppData\Local\Temp\ccoIkqlP.o: In function `print_team':
+c:/Users/Shravani Shinde/Desktop/fpc-advanced-classroom-1st-year-assignment-shravani401/fpc see/fritacole.c:141: undefined reference to `print_fritacole'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 4/8/2024, 3:25:41 PM
+Compilation started at 4/8/2024, 3:25:48 PM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\fritacole.c: In function 'print_team':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\fritacole.c:141:9: warning: implicit declaration of function 'print_fritacole' [-Wimplicit-function-declaration]
+         print_fritacole(t.players[i]);
+         ^~~~~~~~~~~~~~~
+C:\Users\SHRAVA~1\AppData\Local\Temp\cc63XZZh.o: In function `print_team':
+c:/Users/Shravani Shinde/Desktop/fpc-advanced-classroom-1st-year-assignment-shravani401/fpc see/fritacole.c:141: undefined reference to `print_fritacole'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 4/8/2024, 3:25:48 PM
+Compilation started at 4/8/2024, 3:26:24 PM
+Compilation finished at 4/8/2024, 3:26:24 PM

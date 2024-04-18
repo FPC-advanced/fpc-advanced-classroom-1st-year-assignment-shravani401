@@ -108,11 +108,11 @@ int verify_game(game g)
     int team_fouls[2] = {0};
     
     for (int i = 0; i < g.num_points; i++) {
-        team_points[g.p[i].id % 2]++;
+        team_points;
     }
     
     for (int i = 0; i < g.num_fouls; i++) {
-        team_fouls[g.f[i].id % 2]++;
+       team_fouls;
     }
 
     if (team_points[0] > team_points[1]) {
@@ -125,31 +125,15 @@ int verify_game(game g)
         } else if (team_fouls[0] > team_fouls[1]) {
             return 2;
         } else {
-            return 0; // Draw
+            return 0;
         }
-    }
-}
-
-void print_fritacole(fritacole f)
-{
-    printf("ID: %d, Name: %s, Height: %.2f, Integrity: %d, Ability: %d, Discipline: %d, Interest: %d\n",
-           f.id, f.name, f.height, f.integrity, f.ability, f.discipline, f.interest);
-}
-
-void print_team(team t)
-{
-    printf("Team Name: %s\n", t.teamname);
-    printf("Number of Players: %d\n", t.numplayers);
-    for (int i = 0; i < t.numplayers; i++) {
-        printf("Player %d:\n", i + 1);
-        print_fritacole(t.players[i]);
     }
 }
 
 int main()
 {
     game g = input_game();
-    printf("Game Verification Result: ");
+    printf("Game Result: ");
     int result = verify_game(g);
     if (result == 0) {
         printf("The game is a draw.\n");

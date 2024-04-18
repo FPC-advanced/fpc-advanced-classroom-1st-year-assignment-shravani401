@@ -1,0 +1,14 @@
+Compilation started at 4/8/2024, 3:45:41 PM
+Compilation finished at 4/8/2024, 3:45:42 PM
+Compilation started at 4/8/2024, 3:49:43 PM
+Compilation finished at 4/8/2024, 3:49:43 PM
+Compilation started at 4/8/2024, 4:21:32 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\komal.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 4/8/2024, 4:21:33 PM
+Compilation started at 4/8/2024, 4:22:47 PM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\komal.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 4/8/2024, 4:22:47 PM
+Compilation started at 4/18/2024, 11:27:16 AM
+Compilation finished at 4/18/2024, 11:27:16 AM
