@@ -217,12 +217,12 @@ void run_game( game *g)
         }
     }
       int main() {
-    game g;
-    g = input_game();
-    run_game(&g);
+         game g;
+         g = input_game();
+        run_game(&g);
 
-    int id;
-    printf("Enter Fritacole ID to check: ");
+        int id;
+        printf("Enter Fritacole ID to check: ");
     scanf("%d", &id);
     check_fritacole_team(&g, id);
 
