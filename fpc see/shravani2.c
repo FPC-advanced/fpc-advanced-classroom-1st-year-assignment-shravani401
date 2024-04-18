@@ -224,7 +224,7 @@ void run_game( game *g)
                 printf("Fritacole ID %d belongs to %s.\n", id, g->teams[i].teamname);
                 found = 1;
                 break;
-            }
+                 }
         }
         if (found) break;
     }
