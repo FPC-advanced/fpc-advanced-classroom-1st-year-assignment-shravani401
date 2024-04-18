@@ -1,0 +1,8 @@
+Compilation started at 4/18/2024, 12:13:24 PM
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\shravani2.c: In function 'main':
+c:\Users\Shravani Shinde\Desktop\fpc-advanced-classroom-1st-year-assignment-shravani401\fpc see\shravani2.c:244:5: warning: implicit declaration of function 'check_fritacole_team' [-Wimplicit-function-declaration]
+     check_fritacole_team(&g, id);
+     ^~~~~~~~~~~~~~~~~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 4/18/2024, 12:13:24 PM
