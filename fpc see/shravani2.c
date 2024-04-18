@@ -217,6 +217,8 @@ void run_game( game *g)
         }
     }
     void check_frit_team(game *g, int id) {
+
+    
     int found = 0;
     for (int i = 0; i < 2; i++) {
         for (int i = 0; i < g->teams[i].numplayers; i++) {
