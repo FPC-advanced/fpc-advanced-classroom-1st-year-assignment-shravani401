@@ -216,11 +216,11 @@ void run_game( game *g)
             printf("Invalid input. Please try again.\n");
         }
     }
-    void check_frit_t(game *g, int id) {
+    void check_frit_t_id(game *g, int id) {
     int found = 0;
     for (int i = 0; i < 2; i++) {
-        for (int j = 0; j < g->teams[i].numplayers; j++) {
-            if (g->teams[i].players[j].id == id) {
+        for (int i = 0; i < g->teams[i].numplayers; j++) {
+            if (g->teams[i].players[i].id == id) {
                 printf("Fritacole ID %d belongs to %s.\n", id, g->teams[i].teamname);
                 found = 1;
                 break;
